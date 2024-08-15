@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		123434372C6EAF86000C665C /* FetchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123434362C6EAF86000C665C /* FetchApp.swift */; };
-		123434392C6EAF86000C665C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123434382C6EAF86000C665C /* ContentView.swift */; };
+		123434392C6EAF86000C665C /* DessertListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123434382C6EAF86000C665C /* DessertListView.swift */; };
 		1234343B2C6EAF88000C665C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1234343A2C6EAF88000C665C /* Assets.xcassets */; };
 		1234343E2C6EAF88000C665C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1234343D2C6EAF88000C665C /* Preview Assets.xcassets */; };
 		123434482C6EAF88000C665C /* FetchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123434472C6EAF88000C665C /* FetchTests.swift */; };
 		123434522C6EAF88000C665C /* FetchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123434512C6EAF88000C665C /* FetchUITests.swift */; };
 		123434542C6EAF88000C665C /* FetchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123434532C6EAF88000C665C /* FetchUITestsLaunchTests.swift */; };
+		123434612C6EAFCF000C665C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123434602C6EAFCF000C665C /* Meal.swift */; };
+		123434632C6EB07D000C665C /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123434622C6EB07D000C665C /* MealDetail.swift */; };
+		123434652C6EB0EA000C665C /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123434642C6EB0EA000C665C /* DessertViewModel.swift */; };
+		123434672C6EB12F000C665C /* DessertDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123434662C6EB12F000C665C /* DessertDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		123434332C6EAF86000C665C /* Fetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fetch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		123434362C6EAF86000C665C /* FetchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchApp.swift; sourceTree = "<group>"; };
-		123434382C6EAF86000C665C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		123434382C6EAF86000C665C /* DessertListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertListView.swift; sourceTree = "<group>"; };
 		1234343A2C6EAF88000C665C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1234343D2C6EAF88000C665C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		123434432C6EAF88000C665C /* FetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		1234344D2C6EAF88000C665C /* FetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		123434512C6EAF88000C665C /* FetchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUITests.swift; sourceTree = "<group>"; };
 		123434532C6EAF88000C665C /* FetchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		123434602C6EAFCF000C665C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		123434622C6EB07D000C665C /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		123434642C6EB0EA000C665C /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
+		123434662C6EB12F000C665C /* DessertDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				123434362C6EAF86000C665C /* FetchApp.swift */,
-				123434382C6EAF86000C665C /* ContentView.swift */,
+				1234346E2C6EB73B000C665C /* Models */,
+				1234346D2C6EB714000C665C /* ViewModels */,
+				1234346C2C6EB6F4000C665C /* Views */,
 				1234343A2C6EAF88000C665C /* Assets.xcassets */,
 				1234343C2C6EAF88000C665C /* Preview Content */,
 			);
@@ -125,6 +135,32 @@
 				123434532C6EAF88000C665C /* FetchUITestsLaunchTests.swift */,
 			);
 			path = FetchUITests;
+			sourceTree = "<group>";
+		};
+		1234346C2C6EB6F4000C665C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				123434382C6EAF86000C665C /* DessertListView.swift */,
+				123434662C6EB12F000C665C /* DessertDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1234346D2C6EB714000C665C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				123434642C6EB0EA000C665C /* DessertViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1234346E2C6EB73B000C665C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				123434602C6EAFCF000C665C /* Meal.swift */,
+				123434622C6EB07D000C665C /* MealDetail.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123434392C6EAF86000C665C /* ContentView.swift in Sources */,
+				123434392C6EAF86000C665C /* DessertListView.swift in Sources */,
+				123434652C6EB0EA000C665C /* DessertViewModel.swift in Sources */,
+				123434672C6EB12F000C665C /* DessertDetailView.swift in Sources */,
+				123434632C6EB07D000C665C /* MealDetail.swift in Sources */,
+				123434612C6EAFCF000C665C /* Meal.swift in Sources */,
 				123434372C6EAF86000C665C /* FetchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
